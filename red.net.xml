@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-07-13 21:13:06 by Eclipse SUMO netedit Version 1.20.0
+<!-- generated on 2024-07-16 20:23:46 by Eclipse SUMO netedit Version 1.20.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
 
     <input>
-        <sumocfg-file value="C:\Program Files (x86)\Eclipse\Sumo\elc101\final\test.sumocfg"/>
+        <sumocfg-file value="C:\Program Files (x86)\Eclipse\Sumo\elc101\final\traficoSimu.sumocfg"/>
         <additional-files value="C:\Program Files (x86)\Eclipse\Sumo\elc101\final\test.add.xml"/>
-        <route-files value="C:\Program Files (x86)\Eclipse\Sumo\elc101\final\test.rou.xml"/>
+        <route-files value="C:\Program Files (x86)\Eclipse\Sumo\elc101\final\rutas.rou.xml"/>
         <sumo-net-file value="C:\Program Files (x86)\Eclipse\Sumo\elc101\final\red.net.xml"/>
     </input>
 
