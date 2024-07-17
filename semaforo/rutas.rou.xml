@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-07-13 21:12:04 by Eclipse SUMO netedit Version 1.20.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="DEFAULT_VEHTYPE"/>
+    <vType id="bus" length="8.00" vClass="bus" emissionClass="HBEFA3/Coach" color="green"/>
+    <vType id="t_0"/>
+    <vType id="t_1"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="f_0" begin="0.00" from="a" to="z" end="10000000000.00" probability="0.5">
+        <stop lane="z_0" startPos="0.00" endPos="10.00" duration="10.00" permitted="bus"/>
+    </flow>
+    <flow id="f_1" begin="0.00" color="255,0,8" from="a" to="x" end="10000000000.00" probability="0.5"/>
+    <flow id="f_2" begin="0.00" color="red" from="b" to="x" end="10000000000.00" probability="0.4000000000000000222"/>
+    <flow id="f_3" begin="0.00" color="0,237,255" from="b" to="y" end="10000000000.00" probability="0.2999999999999999889"/>
+    <flow id="f_4" begin="0.00" from="b" to="z" end="10000000000.00" probability="0.2999999999999999889"/>
+    <flow id="f_5" begin="0.00" color="cyan" from="c" to="y" end="1000000000000000.00" probability="0.4000000000000000222"/>
+    <flow id="f_6" begin="0.00" from="c" to="z" end="10000000000.00" probability="0.5999999999999999778"/>
+    <flow id="f_7" begin="0.00" color="cyan" from="a" to="y" end="3100000000.00" probability="0.2999999999999999889"/>
+    <flow id="f_8" type="bus" begin="0.00" color="green" from="c" to="z" end="10000000000.00" probability="0.2000000000000000111"/>
+</routes>
